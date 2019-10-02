@@ -1,0 +1,16 @@
+{
+    "name": "cypress-totp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Tom Kühl <tom@d.ventures>",
+    "repository": "https://github.com/tracksy-advertising-ltd/cypress-totp",
+    "license": "MIT",
+    "dependencies": {
+        "speakeasy": "^2.0.0"
+    }
+}
