@@ -6,6 +6,9 @@ function sleep(s) {
 
 module.exports = async function generateTOTP(args) {
     const threshold = args.threshold || 5;
+    if (threshold >= 20) {
+        throw new Error('Invalid threshold.');
+    }
     const seconds = new Date().getSeconds();
     if (seconds >= 30 - threshold && seconds <= 30) {
         await sleep(31 - seconds);

@@ -23,5 +23,5 @@ cy.task("generateTOTP", { secret: "SECRET" }).then(token => {
 |**Name**|**Type**|**Default**|**Description**|
 |---|---|---|---|
 |secret|String (required)|   |Shared secret key|
-|threshold|Number|5||
+|threshold|Number|5|Valid values: 0 - 20|
 |encoding|String|base32|Key encoding (ascii, hex, base32, base64)|
