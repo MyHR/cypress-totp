@@ -11,6 +11,7 @@
     "repository": "https://github.com/tracksy-advertising-ltd/cypress-totp",
     "license": "MIT",
     "dependencies": {
+        "ntpclient": "^1.0.2",
         "speakeasy": "^2.0.0"
     }
 }
