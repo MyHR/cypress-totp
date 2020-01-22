@@ -1,7 +1,7 @@
 # Installation
 1. Install
     ```shell script
-    npm i -D https://github.com/tracksy-advertising-ltd/cypress-totp.git
+    npm i -D https://github.com/myhr/cypress-totp.git
     ```
 2. Edit cypress/plugins/index.js
     ```javascript
